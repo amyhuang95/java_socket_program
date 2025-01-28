@@ -1,17 +1,13 @@
-# README
+# Simple Java Client-Server Program
 
 This project implements a simple TCP server-client application in Java. The server listens for a client connection,
 receives a text string from the client, processes it (by reversing the string and reversing its capitalization), and
 sends the processed string back to the client. The client allows the user to input a short text (up to 80 characters), sends it to the server, and displays the
 server's response. After showing the server response, the client and the server will both exit.
 
----
-
 ## Requirements
 
 - Java Development Kit (JDK) 8 or higher.
-
----
 
 ## Instructions to Run
 
@@ -60,8 +56,6 @@ java Client 127.0.0.1 32000
 - Enter your message, and the client will send it to the server.
 - The server processes the message and sends the translated message back to the client.
 - The client displays the server's response and exits.
-
----
 
 ## Example Interaction
 
